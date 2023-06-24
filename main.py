@@ -1,5 +1,6 @@
 import sys
 
+from ElectricGuitar import ElectricGuitar
 from guitar import Guitar
 
 
@@ -14,3 +15,6 @@ if __name__ == '__main__':
     my_guitar = Guitar()
     print(my_guitar.numStrings)
     print(my_guitar.getNumStrings())
+
+    my_guitar = ElectricGuitar()
+    my_guitar.playLouder()
