@@ -1,8 +1,8 @@
 class Guitar:
     def __init__(self):
-        self.numStrings = 6
+        self.numStrings : int = 6
 
-    def getNumStrings(self):
+    def getNumStrings(self) -> int:
         return self.numStrings
 
     def play(self):
