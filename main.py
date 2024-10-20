@@ -4,7 +4,6 @@ from electric_guitar import ElectricGuitar
 from guitar import Guitar
 
 
-@staticmethod
 def get_python_version() -> str:
     return f'{sys.version_info.major}.{sys.version_info.minor}.{sys.version_info.micro}'
 
