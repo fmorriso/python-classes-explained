@@ -7,10 +7,7 @@ from guitar import Guitar
 def get_python_version() -> str:
     return f'{sys.version_info.major}.{sys.version_info.minor}.{sys.version_info.micro}'
 
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print(f'Python versioun {get_python_version()}')
+def main():
     my_guitar = Guitar()
     print(my_guitar.numStrings)
     print(my_guitar.getNumStrings())
@@ -20,3 +17,8 @@ if __name__ == '__main__':
     my_guitar.playLouder()
     print(f'Child class: {my_guitar.numStrings}')
     print(f'Parent class {Guitar().numStrings}')
+
+# Press the green button in the gutter to run the script.
+if __name__ == '__main__':
+    print(f'Python version {get_python_version()}')
+
